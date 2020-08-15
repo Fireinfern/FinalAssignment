@@ -8,12 +8,28 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <!-- CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-    <header>
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top bg-dark">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a href="#" class="navbar-brand">SSB</a>
+            <div class="collapse" id="Navbar">
+
+            </div>
+        </div>
+    </nav>
+    <header id="mainHeader" class="firstpage">
         <div class="jumbotron">
-            <h2>Sebastian Silva</h2>
+            <div class="container">
+                <h2>Sebastian Silva</h2>
+            </div>
+            
         </div>
     </header>
 
@@ -21,6 +37,18 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script>
+        $('#mainHeader').click(function(){
+            if($('#mainHeader').hasClass('firstpage')){
+                $('#mainHeader').removeClass('firstpage');
+                $('#mainHeader').addClass('secondpage');
+            }
+            else{
+                $('#mainHeader').removeClass('secondpage');
+                $('#mainHeader').addClass('firstpage');
+            }
+        });
+    </script>
 </body>
 
 </html>

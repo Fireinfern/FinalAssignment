@@ -1,0 +1,21 @@
+.jumbotron {
+    margin: 0px auto;
+    padding: 70px 30px;
+    height:100%;
+}
+
+div{
+    transition: all 1s;
+}
+
+#mainHeader{
+    transition: all 1s;
+}
+
+.secondpage{
+    height: 30vh;
+}
+
+.firstpage{
+    height: 100vh;
+}
