@@ -1,0 +1,24 @@
+{
+  "name": "finalassignment",
+  "version": "1.0.0",
+  "description": "A Resume-porfolio type page for the Final Assignment for the bootstrap 4 course",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fireinfern/FinalAssignment.git"
+  },
+  "author": "Sebastin Silva Benites",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fireinfern/FinalAssignment/issues"
+  },
+  "homepage": "https://github.com/Fireinfern/FinalAssignment#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}
