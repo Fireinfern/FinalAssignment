@@ -1,21 +1,35 @@
+*{
+    transition: all 1s;
+}
+
 .jumbotron {
     margin: 0px auto;
     padding: 70px 30px;
-    height:100%;
 }
 
-div{
-    transition: all 1s;
+#Home{
+    padding: 20px 0px;
 }
 
-#mainHeader{
-    transition: all 1s;
+body {
+    padding: 50px 0px 0px 0px;
+    z-index: 0; }
+
+
+section{
+    margin: 0px auto;
+    padding: 30px 0px;
 }
 
-.secondpage{
-    height: 30vh;
+.footer{
+    margin: 0px auto;
+    padding: 20px 0px;
 }
 
-.firstpage{
-    height: 100vh;
+.collapse{
+    height: 0%;
+}
+
+.show{
+    height: 100%;
 }

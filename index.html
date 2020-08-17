@@ -8,7 +8,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <!-- CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
-    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
@@ -19,36 +20,121 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <a href="#" class="navbar-brand">SSB</a>
-            <div class="collapse" id="Navbar">
-
+            <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active"><a href="#Home" class="nav-link" id="homeButton"><span
+                                class="fa fa-home"></span> Home</a>
+                    </li>
+                    <li class="nav-item"><a href="#Aboutme" class="nav-link" id="aboutmeButton"><span
+                                class="fa fa-info"></span> About me</a></li>
+                    <li class="nav-item"><a href="#Myprojects" class="nav-link" id="myprojectsButton"><span
+                                class="fa fa-file"></span> My
+                            Projects</a></li>
+                    <li class="nav-item"><a href="#Contact" class="nav-link" id="contactButton"><span
+                                class="fa fa-address-card"></span>
+                            Contact</a></li>
+                </ul>
             </div>
         </div>
     </nav>
-    <header id="mainHeader" class="firstpage">
-        <div class="jumbotron">
-            <div class="container">
-                <h2>Sebastian Silva</h2>
+    <header id="mainHeader" class="jumbotron">
+        <div class="container">
+            <div class="row row-header">
+                <div class="col-12 col-sm-8 align-self-center">
+                    <h2>Sebastian Silva</h2>
+                    <h5>Computer Scientist &amp; Web Developer</h5>
+                    <p id="Home" class="collapse show">Ipsum nostrud voluptate ut elit enim id ea commodo mollit ipsum
+                        minim anim
+                        magna. Officia culpa
+                        laboris minim exercitation dolor. Labore occaecat cupidatat proident anim anim voluptate ad
+                        irure nisi cupidatat cupidatat consectetur deserunt. Nisi sint culpa elit reprehenderit irure
+                        elit enim id dolore duis qui consequat pariatur. Deserunt dolor est dolore velit excepteur.
+                        Veniam veniam nisi tempor Lorem sint.</p>
+                </div>
             </div>
-            
-        </div>
     </header>
+    <section class="container collapse" id="Aboutme">
+        <div class="row">
+            <div class="col-12 col-sm-8">
+                <h3>About me</h3>
+                <p>Dolore
+                    in dolor deserunt ipsum velit mollit mollit sit nisi ad. Velit amet et do fugiat quis. Aute ea
+                    nostrud dolor ullamco labore Lorem mollit dolore aliqua officia mollit proident eiusmod veniam. Anim
+                    dolore ad duis duis.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="container collapse" id="Myprojects">
+        <div class="row">
+            <div class="col-12">
+                <h3>My Projects</h3>
+                <p>Aliquip ipsum consequat velit veniam est deserunt tempor tempor. Adipisicing mollit deserunt esse
+                    proident sit aute ad tempor adipisicing nulla est excepteur irure. Eu laboris nostrud sint
+                    reprehenderit consequat proident. Irure fugiat sunt ad pariatur.</p>
+            </div>
+        </div>
+    </section>
+    <section class="container collapse" id="Contact">
+        <div class="row">
+            <div class="col-12">
+                <h3>Contact</h3>
+                <p>Reprehenderit ea occaecat duis eiusmod voluptate in et duis. Ex sit voluptate tempor eu excepteur
+                    esse qui qui laborum qui officia magna. Officia nulla nostrud cupidatat exercitation laborum nostrud
+                    incididunt nulla proident consectetur consequat.Commodo deserunt anim consequat incididunt magna
+                    exercitation. Nulla aliqua non magna in consectetur tempor. Adipisicing labore commodo aliqua ea.
+                    Deserunt pariatur consequat ipsum est aliqua aliqua velit qui dolore deserunt. Incididunt velit
+                    exercitation Lorem duis consectetur quis Lorem.
 
+                    Lorem esse veniam amet voluptate ut eiusmod reprehenderit. Laborum eu occaecat sint culpa mollit
+                    quis aliqua deserunt. Magna amet cillum est ad qui voluptate sit. Mollit aliqua magna sint commodo
+                    qui aute ea exercitation adipisicing do ullamco. Et consequat qui est tempor elit sit ad.
+
+                    Fugiat quis Lorem fugiat ea deserunt adipisicing et. Tempor nulla nostrud anim excepteur Lorem
+                    reprehenderit officia sint eu. Incididunt incididunt anim commodo cupidatat. Deserunt nulla anim
+                    adipisicing eiusmod veniam officia ut cillum sint dolore aliquip quis duis consectetur. Sint
+                    deserunt est est elit amet velit mollit. Adipisicing id exercitation est nulla ad sit veniam qui
+                    exercitation aliqua proident. Ut cupidatat fugiat consequat commodo aliqua exercitation tempor
+                    ipsum.</p>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 offset-1 col-sm-2">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" id="homeLink">Home</a></li>
+                        <li><a href="#" id="aboutmeLink">About me</a></li>
+                        <li><a href="#" id="myprojectsLink">My Projects</a></li>
+                        <li><a href="#" id="contactLink">Contact</a></li>
+                    </ul>
+                </div>
+                <!-- <div class="col-7 col-sm-5">
+                    <h5>Contact</h5>
+                    <ul class="list-unstyled">
+                        <li>sebastiansilvabenites@gmail.com</li>
+                    </ul>
+                </div> -->
+                <div class="col-12 col-sm-8 align-self-center">
+                    <div class="text-center">
+                        <a href="https://github.com/Fireinfern" class="btn btn-social-icon btn-github"><i
+                                class="fa fa-github fa-lg"></i></a>
+                        <a href="https://www.linkedin.com/in/silvasebastiancs/"
+                            class="btn btn-social-icon btn-linkedin"><i class="fa fa-linkedin fa-lg"></i></a>
+                        <a href="mailto:sebastiansilvabenites@gmail.com" class="btn btn-social-icon"><i
+                                class="fa fa-envelope-o fa-lg"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
     <!-- Javascript -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script>
-        $('#mainHeader').click(function(){
-            if($('#mainHeader').hasClass('firstpage')){
-                $('#mainHeader').removeClass('firstpage');
-                $('#mainHeader').addClass('secondpage');
-            }
-            else{
-                $('#mainHeader').removeClass('secondpage');
-                $('#mainHeader').addClass('firstpage');
-            }
-        });
-    </script>
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>
